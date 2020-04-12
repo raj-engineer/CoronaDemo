@@ -23,6 +23,8 @@
 		3E915B6E24431E5100DFA574 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E915B6D24431E5100DFA574 /* Extensions.swift */; };
 		3E915B7024431EA000DFA574 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E915B6F24431EA000DFA574 /* CountryViewModel.swift */; };
 		3E915B7224431F5A00DFA574 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E915B7124431F5A00DFA574 /* ResponseData.swift */; };
+		3E915B762443337400DFA574 /* Screenshot 2020-04-12 at 4.56.38 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E915B742443337400DFA574 /* Screenshot 2020-04-12 at 4.56.38 PM.png */; };
+		3E915B772443337400DFA574 /* Screenshot 2020-04-12 at 4.57.03 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E915B752443337400DFA574 /* Screenshot 2020-04-12 at 4.57.03 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		3E915B6D24431E5100DFA574 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3E915B6F24431EA000DFA574 /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
 		3E915B7124431F5A00DFA574 /* ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
+		3E915B742443337400DFA574 /* Screenshot 2020-04-12 at 4.56.38 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2020-04-12 at 4.56.38 PM.png"; sourceTree = "<group>"; };
+		3E915B752443337400DFA574 /* Screenshot 2020-04-12 at 4.57.03 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2020-04-12 at 4.57.03 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 		3E915B2E2443199B00DFA574 /* CoronaDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3E915B732443335300DFA574 /* Screenshots */,
 				3E915B61244319D900DFA574 /* Views */,
 				3E915B60244319BF00DFA574 /* Models */,
 				3E915B5F244319B400DFA574 /* Helpers */,
@@ -182,6 +187,15 @@
 				3E915B332443199B00DFA574 /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3E915B732443335300DFA574 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				3E915B742443337400DFA574 /* Screenshot 2020-04-12 at 4.56.38 PM.png */,
+				3E915B752443337400DFA574 /* Screenshot 2020-04-12 at 4.57.03 PM.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,8 +303,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E915B3C2443199C00DFA574 /* LaunchScreen.storyboard in Resources */,
+				3E915B762443337400DFA574 /* Screenshot 2020-04-12 at 4.56.38 PM.png in Resources */,
 				3E915B392443199C00DFA574 /* Preview Assets.xcassets in Resources */,
 				3E915B362443199C00DFA574 /* Assets.xcassets in Resources */,
+				3E915B772443337400DFA574 /* Screenshot 2020-04-12 at 4.57.03 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
